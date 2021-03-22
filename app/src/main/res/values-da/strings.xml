@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meteorology (Vejr APP)</string>
+    <string name="exitbtn">Afslut</string>
+    <string name="CityName">By navn</string>
+    <string name="Notes">Noter</string>
+    <string name="editNotes">Redigeret noter</string>
+    <string name="Write">Rediger</string>
+    <string name="txtCount">Rating Score</string>
+    <string name="btnCancel">Annullere</string>
+    <string name="btnOK">OK</string>
+    <string name="WordRating">RatingWordEdit</string>
+    <string name="MyRating">Min Rating</string>
+    <string name="Back">Tilbage</string>
+    <string name="Edit">Rediger</string>
+</resources>

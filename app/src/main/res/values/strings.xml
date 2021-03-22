@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Meteorology</string>
+    <string name="exitbtn">Exit</string>
+    <string name="CityName">City Name</string>
+    <string name="Notes">Notes</string>
+    <string name="editNotes">EditedNotes</string>
+    <string name="Write">Edit</string>
+    <string name="txtCount">Rating Score</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnOK">OK</string>
+    <string name="WordRating">RatingWordEdit</string>
+    <string name="MyRating">MyRating</string>
+    <string name="Back">Back</string>
+    <string name="Edit">Edit</string>
+</resources>

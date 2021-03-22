@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+
+    <TextView
+        android:id="@+id/EditCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/MyRating"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/flagEdit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/btnOK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/btnCancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SeekBar
+        android:id="@+id/slidebar"
+        android:layout_width="310dp"
+        android:layout_height="17dp"
+        android:max="20"
+        android:progress="0"
+        app:layout_constraintBottom_toTopOf="@+id/editNotes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtRatingValue"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <TextView
+        android:id="@+id/txtRatingValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        app:layout_constraintEnd_toEndOf="@+id/slidebar"
+        app:layout_constraintTop_toBottomOf="@+id/flagEdit"
+        tools:text="@string/txtCount" />
+
+    <ImageView
+        android:id="@+id/flagEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dk" />
+
+    <TextView
+        android:id="@+id/EditActivityNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="312dp"
+        android:text="@string/Notes"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/slidebar"
+        app:layout_constraintStart_toStartOf="@+id/editNotes" />
+
+    <EditText
+        android:id="@+id/editNotes"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/editNotes"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/EditActivityNotes"
+        app:layout_constraintVertical_bias="0.242"
+        tools:text="@string/Write" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
